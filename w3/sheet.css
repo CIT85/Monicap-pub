@@ -2,6 +2,18 @@ html {
     font-size: 22px;
 }
 body {
-    background-color: #333;
+    background-color: #5f4242;
     color: whitesmoke;
+}
+    
+a {
+    color: rgb(159, 168, 177);
+}
+
+a:visited {
+    color:lightgray;
+}
+
+a:hoover, a:active {
+    color:#eee;
 }
