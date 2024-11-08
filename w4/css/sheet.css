@@ -1,0 +1,38 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #5f4242;
+    color: whitesmoke;
+}
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 3px solid #e2dada;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: separate;
+    border-radius: 5px;
+    background-color: rgb(145, 62, 57);
+    padding: 0.5rem;
+}
+caption{
+    font-size: larger;
+    text-align: center;
+}
+
+a {
+    color: rgb(159, 168, 177);
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover,
+a:active {
+    color: #eee;
+}
