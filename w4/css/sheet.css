@@ -2,9 +2,38 @@ html {
     font-size: 22px;
 }
 
+
 body {
-    background-color: #5f4242;
-    color: whitesmoke;
+    background-color: rgb(60, 54, 42);
+    color: rgb(232, 247, 238);
+}
+
+h4 {
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border: 3px dashed black;
+    border-radius: 10px;
+}
+
+ol {
+    padding: 4rem;
+    margin: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border: 3px dashed black;
+    border-radius: 2rem;
+}
+
+.container {
+    margin: 1em;
+    padding: 0.5em;
+    border: 3px dashed black;
+    background-color: rgb(102, 63, 70);
+    border-radius: 3px;
 }
 
 table,
@@ -16,10 +45,11 @@ caption {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-collapse: separate;
     border-radius: 5px;
-    background-color: rgb(145, 62, 57);
+    background-color: rgb(102, 63, 70);
     padding: 0.5rem;
 }
-caption{
+
+caption {
     font-size: larger;
     text-align: center;
 }
